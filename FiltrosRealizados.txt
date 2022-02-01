@@ -1,0 +1,22 @@
+------FILTROS REALIZADOS----
+
+---/////INICIO DE SESIÓN/////---
+1) Si los datos de inicio de sesión son diferentes a usuario: miguel y contraseña: 123 
+
+
+
+---/////PAGO//////---
+
+1) Si la cantidad del pago es superior al dinero que tenemos, permite realizar pago.
+2) Si el valor es 0, no permite realizar pago
+3) Si el valor es negativo, no permite realizar pago.
+4) Si el número de movimientos supera un valor (10+) no permite realizar pago.
+
+
+
+
+---/////INVERSION//////---
+1) Si la cantidad de la inversión es superior al dinero que tenemos, permite realizar pago.
+2) Si el valor es 0, no permite realizar inversión
+3) Si el valor es negativo, no permite realizar inversión
+4) Si el nombre de la acción es algo distinto de msft, apple o tesla, no se permite realizar inversion.

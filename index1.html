@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TurboBank por Miguel Garcia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles1.css" />
+    <script src="/TurboBank/script1.js" defer></script>
+  </head>
+  <body>
+    <div class="headerlogo textcenter">
+      <img class="imglogo" src="imgs/logo1.jpg" />
+    </div>
+    <div class="wrapallbackground">
+      <div class="wrapall">
+        <div class="loginform">
+          <div class="loginformleft">
+            <div class="iniciasesion">Inicia Sesión</div>
+            <div class="usuario">USUARIO</div>
+            <div class="usuarioinput">
+              <input class="inputuser" type="text" />
+            </div>
+            <div class="contraseña">CONTRASEÑA</div>
+            <div class="contraseñainput">
+              <input class="inputpass" type="password"/>
+            </div>
+            <div class="botonlogin">
+              <button class="loginbtn" type="click">ENTRAR</button>
+            </div>
+          </div>
+          <div class="loginformright"><img src="/TurboBank/imgs/loginimg1.jpg" class="loginimagebackground1"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="wrapallafterlogin hidden">
+      <div class="cerrarsesion"><button class="cerrarsesionbtn">Cerrar Sesión</button>
+      </div>
+      <div class="panel1">
+        <div class="bienvenido">Balance </div>
+        <div class="tusahorros">Tus Ahorros 💶</div>
+        <div class="tusahorrosvalue">500</div>
+        <div class="ultimoingreso">Tu ultimo ingreso 📨</div>
+        <div class="ultimoingresovalue">100</div>
+        <div class="ultimopago">Tu ultimo pago 💳</div>
+        <div class="ultimopagovalue">50</div>
+      </div>
+      <div class="panel2 scrollbar">
+        <div class="ultimosmovstoptext">Ultimos movimientos</div>
+        <div class="ultimosmovs"></div>
+      </div>
+      <div class="panel3">
+        <div class="enviadinero">Envía dinero 💸</div>
+        <div class="enviara">Envíar dinero a</div>
+        <div class="usuariopagovalue"><input type="text" class="inputusuarioapagar"></div>
+        <div class="porvalorde">por valor de</div>
+        <div class="usuariopagocantidad"><input type="number" class="inputcantidadapagar"></div>
+        <div class="paybtn"><button class="btnpagar">Envíar</button></div>
+        <div class="errorcantidadnovalidapago hiddenerrors"><div class="error">Error</div><br>Introduce datos válidos</div>
+        <div class="errordemasiadastransacciones hiddenerrors"><div class="error">Error</div><br>Máximo de transacciones alcanzado. Vuelva más tarde</div>
+      </div>
+      <div class="panel4">
+        <div class="compraracciones">Compra Acciones<br></div>
+        <div class="stockacomprar">Stock</div>
+        <div class="stockacomprartext"><input type="text" class="stockname"></div>
+        <div class="valortextstock">por valor de</div>
+        <div class="stockquantity scrollbar"><input type="number" class="stockcantidad"></div>
+        <div class="buystock"><button class="btninvertir">Invertir</button></div>
+        <div class="errorstocknodisponible hiddenerrors"><div class="error">Error</div>No tenemos esa acción disponible. Actualmente tenemos: MSFT, TESLA, APPLE</div>
+        <div class="errorcantidadnovalidainversion hiddenerrors"><div class="error">Error</div><div class="styleerror1">Introduce una cantidad válida</div></div>
+      </div>
+      <div class="panel5 scrollbar" id="scrollbar-custom">
+        <div class="tusinversionestoptext">Tus Inversiones</div>
+          <div class="tusinversiones"></div>
+        
+      </div>
+    </div>
+  </body>
+</html>
+
